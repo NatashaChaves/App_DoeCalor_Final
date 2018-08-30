@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:map="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             xmlns:local="clr-namespace:App_DoeCalor_Final.ViewModels"
+             x:Class="App_DoeCalor_Final.Pages.DoadorPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <local:ExtendedMap x:Name="Mapa"  Tap="Mapa_OnTap"/>
+            </StackLayout>
+           
+
+            <Button Text="Localização" Clicked="GetPosition" BackgroundColor="#EEE"  />
+            <Label Text="Latitude" FontSize="20" HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="LatitudeLabel" FontSize="30" HorizontalOptions="CenterAndExpand" />
+            <Label Text="Longitude" FontSize="20" HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="LongitudeLabel" FontSize="30" HorizontalOptions="CenterAndExpand" />
+
+            <map:Map x:Name="Mapas" MapType="Street" 
+              VerticalOptions="FillAndExpand" 
+              IsShowingUser="true">
+
+            </map:Map>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

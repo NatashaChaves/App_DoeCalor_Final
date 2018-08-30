@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XamlProjectMeta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Files>
+    <XamlFileMeta>
+      <FilePath>C:\Users\natas\source\repos\App_DoeCalor_Final\App_DoeCalor_Final\App_DoeCalor_Final\App.xaml</FilePath>
+      <Hash>F7-95-37-A5-8B-E0-65-3E-C9-8B-D8-F6-14-2E-16-B1</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\natas\source\repos\App_DoeCalor_Final\App_DoeCalor_Final\App_DoeCalor_Final\MainPage.xaml</FilePath>
+      <Hash>C7-0A-0F-18-50-78-6C-F2-17-11-D3-AF-6B-8A-C2-A8</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\natas\source\repos\App_DoeCalor_Final\App_DoeCalor_Final\App_DoeCalor_Final\Pages\Direcionamento.xaml</FilePath>
+      <Hash>A0-A5-89-58-D6-8B-72-D8-B5-84-25-35-5E-F8-5B-B4</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\natas\source\repos\App_DoeCalor_Final\App_DoeCalor_Final\App_DoeCalor_Final\Pages\DoadorPage.xaml</FilePath>
+      <Hash>6D-82-34-94-80-46-6E-40-D5-9A-74-B8-32-0A-0E-B1</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\natas\source\repos\App_DoeCalor_Final\App_DoeCalor_Final\App_DoeCalor_Final\Pages\HomePage.xaml</FilePath>
+      <Hash>57-C6-85-3B-8A-CE-2A-C9-98-FB-25-B1-DF-63-2D-CA</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\natas\source\repos\App_DoeCalor_Final\App_DoeCalor_Final\App_DoeCalor_Final\Pages\IndexPage.xaml</FilePath>
+      <Hash>AA-00-18-F2-42-5E-67-11-B4-28-27-DC-E0-38-3A-5D</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\natas\source\repos\App_DoeCalor_Final\App_DoeCalor_Final\App_DoeCalor_Final\Pages\IntroductionPage.xaml</FilePath>
+      <Hash>6A-19-73-76-DC-4A-4E-92-EF-01-EB-CD-6D-4D-5C-7F</Hash>
+      <Properties>
+        <string>NavigationPage.HasNavigationBar</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\natas\source\repos\App_DoeCalor_Final\App_DoeCalor_Final\App_DoeCalor_Final\Pages\LoginPage.xaml</FilePath>
+      <Hash>84-97-64-BA-29-B0-AC-EC-E9-1A-49-1B-5F-9A-02-57</Hash>
+      <Properties>
+        <string>Title</string>
+        <string>BackgroundColor</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\natas\source\repos\App_DoeCalor_Final\App_DoeCalor_Final\App_DoeCalor_Final\Pages\MasterPage.xaml</FilePath>
+      <Hash>1C-24-88-D6-42-27-90-B1-FB-90-CF-F2-FF-0D-02-18</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\natas\source\repos\App_DoeCalor_Final\App_DoeCalor_Final\App_DoeCalor_Final\Pages\ReceptorPage.xaml</FilePath>
+      <Hash>8D-8B-64-1F-37-DB-E8-A5-BB-26-04-E0-8C-CE-40-60</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>C:\Users\natas\source\repos\App_DoeCalor_Final\App_DoeCalor_Final\App_DoeCalor_Final\Pages\RegisterPage.xaml</FilePath>
+      <Hash>C8-6E-53-5E-DE-CD-EB-30-58-9B-E9-D1-3F-13-91-3C</Hash>
+      <Properties />
+    </XamlFileMeta>
+  </Files>
+</XamlProjectMeta>

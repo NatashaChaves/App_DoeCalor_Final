@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             xmlns:local="clr-namespace:App_DoeCalor_Final.ViewModels"
+             x:Class="App_DoeCalor_Final.Pages.HomePage">
+    <TabbedPage.Children>
+        <ContentPage Title="Mapa">
+            <ContentPage.Content>
+                <StackLayout>
+                    <maps:Map x:Name="Mapa" MapType="Street" 
+              VerticalOptions="FillAndExpand" 
+              IsShowingUser="true">
+
+                    </maps:Map>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </TabbedPage.Children>
+</TabbedPage>

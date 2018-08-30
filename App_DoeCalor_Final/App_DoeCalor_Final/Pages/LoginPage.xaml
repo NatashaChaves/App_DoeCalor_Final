@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_DoeCalor_Final.Pages.LoginPage"
+             Title="Login"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Image Source="logo.png" Margin="0,0,0,10" HorizontalOptions="CenterAndExpand" HeightRequest="100" WidthRequest="100" />
+            <Label Text="E-mail:" FontSize="Medium" TextColor="Blue"/>
+            <Entry x:Name="email" Text="{Binding Email}" Placeholder="Digite seu e-mail" FontSize="Medium" Keyboard="Email" />
+            <Label Text="Senha:" FontSize="Medium" TextColor="Blue"/>
+            <Entry Placeholder="Digite sua senha" Text="{Binding Password}" FontSize="Medium" IsPassword="True" />
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Entrar" Command="{Binding EntrarCommand}"  IsEnabled="{Binding IsDisabled}" Clicked="Show" BackgroundColor="Blue" TextColor="White" />
+                <ActivityIndicator x:Name="actInd"
+                             IsRunning="{Binding IsLoading}"
+                             IsVisible="{Binding IsLoading}" Color="Red"/>
+                <Button Text="Registrar" Command="{Binding RegisterCommand}" BackgroundColor="Blue" TextColor="White" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

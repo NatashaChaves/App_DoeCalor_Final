@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pages="clr-namespace:App_DoeCalor_Final.Pages"
+              NavigationPage.HasNavigationBar="False"
+             x:Class="App_DoeCalor_Final.Pages.IntroductionPage">
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center">
+                <Image Source="playstore-icon.png" HorizontalOptions="Center" WidthRequest="200"/>
+                <Label Text="Doe Calor" HorizontalOptions="Center" />
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center">
+                <Image Source="playstore-icon.png" HorizontalOptions="Center" WidthRequest="200"/>
+                <Label Text="Aqui você encontrar ponto de recolha e doação" HorizontalOptions="Center" />
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage>
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center"  HorizontalOptions="Center">
+                <Label x:Name="Status" FontSize="20"/>
+                <Button Text="Verify" Clicked="VerifyInternet"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <pages:LoginPage />
+</CarouselPage>
